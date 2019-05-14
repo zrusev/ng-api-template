@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # OnlineStore
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
@@ -26,7 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# ng-online-store-app
-Online store written in Angular
->>>>>>> 0d8a279b924e5ea1bd2f97c36873443defe9f4f2
