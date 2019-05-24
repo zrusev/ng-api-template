@@ -1,5 +1,6 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
+import { HomeComponent } from './components/home/home.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,17 +10,19 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { APP_SERVICES, AuthInterceptorService, AuthErrorsInterceptorService } from './core/services/index';
 
 import { ToolbarComponent } from './components/shared/toolbar/toolbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
+    HomeComponent,
     AppComponent,
     ToolbarComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
-    MaterialModule
+    MaterialModule,
   ],
   providers: [
     APP_SERVICES,

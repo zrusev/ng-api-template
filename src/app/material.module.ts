@@ -1,24 +1,31 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatMenuTrigger, MatMenu, MatButton, MatMenuModule} from '@angular/material';
-import { HomeComponent } from './components/home/home.component';
+import {
+  MatButtonModule, 
+  MatCheckboxModule, 
+  MatToolbarModule, 
+  MatMenuModule, 
+  MatFormFieldModule, 
+  MatInputModule,
+  MatFormFieldControl
+} from '@angular/material';
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [],
   imports: [
-    CommonModule,
-    BrowserAnimationsModule,
     MatButtonModule, 
     MatCheckboxModule,
     MatToolbarModule,
-    MatMenuModule
+    MatMenuModule,
+    MatInputModule,
+    MatFormFieldModule,
   ],
   exports: [
     MatButtonModule, 
     MatCheckboxModule,
     MatToolbarModule,
-    MatMenuModule
+    MatMenuModule,
+    MatInputModule,
+    MatFormFieldModule,
   ]
 })
 export class MaterialModule { }

@@ -7,6 +7,7 @@ import { UserLogin } from '../../core/models/index';
 
 @Component({
     selector: 'login',
+    styleUrls: ['./login.component.css'],
     templateUrl: 'login.component.html'
 })
 

@@ -7,6 +7,7 @@ import { UserRegister } from '../../core/models/index';
 
 @Component({
     selector: 'register',
+    styleUrls: [ './register.component.css'],
     templateUrl: 'register.component.html'
 })
 

@@ -1,10 +1,11 @@
 ﻿import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { AccountRoutingModule } from './account.routes';
 
-import { ACCOUNT_COMPONENTS } from './index'
+import { ACCOUNT_COMPONENTS } from './index';
+import { MaterialModule } from 'src/app/material.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
     declarations: [ACCOUNT_COMPONENTS],
@@ -12,8 +13,8 @@ import { ACCOUNT_COMPONENTS } from './index'
     imports: [
         CommonModule,
         FormsModule,
-
-        AccountRoutingModule
+        AccountRoutingModule,
+        MaterialModule,
     ],
     providers: []
 })
